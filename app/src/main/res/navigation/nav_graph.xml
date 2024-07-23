@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_principale">
+
+    <fragment
+        android:id="@+id/fragment_principale"
+        android:name="com.example.appmensa.classiPaginaUtente.clasiFragmentPrincipale.PrincipaleFragment"
+        android:label="I MENU DEL GIORNO"
+        tools:layout="@layout/fragment_principale" />
+
+    <fragment
+        android:id="@+id/fragment_prenotazioni"
+        android:name="com.example.appmensa.classiPaginaUtente.classiPrenotazioniStoricoFragment.PrenotazioniFragment"
+        android:label="LE TUE PRENOTAZIONI"
+        tools:layout="@layout/fragment_prenotazioni" />
+
+    <fragment
+        android:id="@+id/fragment_storico"
+        android:name="com.example.appmensa.classiPaginaUtente.classiPrenotazioniStoricoFragment.StoricoFragment"
+        android:label="I PASTI  CONSUMATI"
+        tools:layout="@layout/fragment_storico" />
+
+    <fragment
+        android:id="@+id/fragment_news"
+        android:name="com.example.appmensa.classiPaginaUtente.classiNewsFragment.NewsFragment"
+        android:label="I NOSTRI EVENTI"
+        tools:layout="@layout/fragment_news" />
+
+    <action
+        android:id="@+id/action_fragment_principale_to_fragment_prenotazioni"
+        app:destination="@id/fragment_prenotazioni" />
+
+    <action
+        android:id="@+id/action_fragment_principale_to_fragment_storico"
+        app:destination="@id/fragment_storico" />
+
+    <action
+        android:id="@+id/action_fragment_principale_to_fragment_news"
+        app:destination="@id/fragment_news" />
+
+    <!-- Aggiungi altre azioni di navigazione secondo necessità -->
+    <action
+        android:id="@+id/navigation_prenotazioni"
+        app:destination="@id/fragment_prenotazioni" />
+</navigation>
+
+

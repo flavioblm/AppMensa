@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Antipasto"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinnerAntipasto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Primo"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPrimo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Secondo"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spinnerSecondo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dolce"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spinnerDolce"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_principale"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/fragment_prenotazioni"
+        android:icon="@drawable/ic_prenotazioni"
+        android:title="Prenotazioni" />
+    <item
+        android:id="@+id/fragment_storico"
+        android:icon="@drawable/ic_tempo"
+        android:title="Storico" />
+    <item
+        android:id="@+id/fragment_news"
+        android:icon="@drawable/ic_news"
+        android:title="News" />
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardElevation="16dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/giallo"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Inserisci la nuova password"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/casellapersonalizzata"
+            android:ems="10"
+            android:hint="password nuova"
+            android:inputType="textPassword"
+            android:paddingStart="7dp"
+            android:textColor="@color/polarnight3"
+            android:textColorHint="@color/polarnight0" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Inserisci la vecchia password"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/casellapersonalizzata"
+            android:ems="10"
+            android:hint="password vecchia"
+            android:inputType="textPassword"
+            android:paddingStart="7dp"
+            android:textColor="@color/polarnight3"
+            android:textColorHint="@color/polarnight0" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/polarnight0"
+            android:text="AGGIORNA"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

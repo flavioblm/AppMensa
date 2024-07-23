@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpapersignup"
+    android:theme="@style/ThemeOverlay.AppMensa.FullscreenContainer"
+    tools:context=".classiMainActivity.SignUpFragment">
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="292dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#D08770"
+        android:text="REGISTRATI"
+        android:textColor="@color/polarnight0"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/showLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/nomeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textColor="@color/gray_400"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="292dp"
+        android:layout_height="54dp"
+        android:background="@drawable/casellapersonalizzata"
+        android:ems="10"
+        android:hint="Mario"
+        android:inputType="text"
+        android:paddingStart="7dp"
+        android:textColor="@color/polarnight3"
+        android:textColorHint="@color/polarnight0"
+        app:layout_constraintBottom_toTopOf="@+id/cognomeLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomeLabel" />
+
+    <TextView
+        android:id="@+id/cognomeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Cognome"
+        android:textColor="@color/gray_400"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextCognome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNome" />
+
+    <EditText
+        android:id="@+id/editTextCognome"
+        android:layout_width="292dp"
+        android:layout_height="54dp"
+        android:background="@drawable/casellapersonalizzata"
+        android:ems="10"
+        android:hint="Rossi"
+        android:inputType="text"
+        android:paddingStart="7dp"
+        android:textColor="@color/polarnight3"
+        android:textColorHint="@color/polarnight0"
+        app:layout_constraintBottom_toTopOf="@+id/emailLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cognomeLabel" />
+
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Email"
+        android:textColor="@color/gray_400"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmaill"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCognome" />
+
+    <EditText
+        android:id="@+id/editTextEmaill"
+        android:layout_width="292dp"
+        android:layout_height="54dp"
+        android:background="@drawable/casellapersonalizzata"
+        android:ems="10"
+        android:hint="mariorossi@gmail.com"
+        android:inputType="textEmailAddress"
+        android:paddingStart="7dp"
+        android:textColor="@color/polarnight3"
+        android:textColorHint="@color/polarnight0"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailLabel" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Data di nascita"
+        android:textColor="@color/gray_400"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmaill" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="292dp"
+        android:layout_height="54dp"
+        android:background="@drawable/casellapersonalizzata"
+        android:ems="10"
+        android:hint="14.02.2002"
+        android:inputType="date"
+        android:paddingStart="7dp"
+        android:textColor="@color/polarnight3"
+        android:textColorHint="@color/polarnight0"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Password"
+        android:textColor="@color/gray_400"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="292dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/casellapersonalizzata"
+        android:ems="10"
+        android:hint="******"
+        android:inputType="textPassword"
+        android:paddingStart="7dp"
+        android:textColor="@color/polarnight3"
+        android:textColorHint="@color/polarnight0"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSignUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/showLogin"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/accedi"
+        android:textAlignment="center"
+        android:textColor="@color/snowstorm"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="BENVENUTO"
+        android:textColor="@color/giallo"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Registra il tuo account!"
+        android:textColor="@color/giallo"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/snowstorm"
+    android:outlineAmbientShadowColor="@color/arancione"
+    android:outlineSpotShadowColor="@color/arancione"
+    app:cardBackgroundColor="@color/snowstorm"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvMenuDateToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="IL MENU DEL GIORNO"
+            android:textAlignment="center"
+            android:textColor="@color/arancione"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!-- Antipasto -->
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            app:srcCompat="@drawable/todaymenu" />
+
+        <TextView
+            android:id="@+id/tvAntipastoNomeToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/polarnight0"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAntipastoDettagliToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/arancione" />
+
+        <!-- Primo -->
+        <TextView
+            android:id="@+id/tvPrimoNomeToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/polarnight0"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPrimoDettagliToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/arancione" />
+
+        <!-- Secondo -->
+        <TextView
+            android:id="@+id/tvSecondoNomeToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/polarnight0"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSecondoDettagliToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/arancione" />
+
+        <!-- Dolce -->
+        <TextView
+            android:id="@+id/tvDolceNomeToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/polarnight0"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDolceDettagliToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/arancione" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="@color/arancione"
+            android:text="PRENOTA" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

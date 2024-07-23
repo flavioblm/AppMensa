@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/visualizza_notifiche"
+            android:icon="@drawable/notification_bell_1397_svgrepo_com"
+            android:title="Visualizza notifiche" />
+
+        <item
+            android:id="@+id/visualizza_recensioni"
+            android:icon="@drawable/review_file_svgrepo_com"
+            android:title="Visualizza recensioni" />
+
+        <item
+            android:id="@+id/nav_contatta_assistenza"
+            android:icon="@drawable/ic_assistenza"
+            android:title="Contatta Assistenza" />
+        <item
+            android:id="@+id/nav_elimina_storico"
+            android:icon="@drawable/ic_elimina"
+            android:title="Elimina Storico Pasti Consumati" />
+        <item
+            android:id="@+id/nav_modifica_account"
+            android:icon="@drawable/ic_modaccount"
+            android:title="Modifica Password" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

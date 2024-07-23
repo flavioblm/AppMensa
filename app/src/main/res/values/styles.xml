@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Widget.Theme.AppMensa.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="Widget.Theme.AppMensa.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+    </style>
+</resources>
